@@ -1,9 +1,9 @@
 import React from 'react';
-import BlogPost from './components/BlogPost';
+import BlogList from './components/BlogList';
 
 function App() {
   return (
-<BlogPost/>  
+<BlogList/> 
   );
 }
 
