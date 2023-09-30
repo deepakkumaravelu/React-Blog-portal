@@ -7,7 +7,7 @@ const NavBar = () => {
     <li><a href="#">Home</a></li>
     <li><a href="#">News</a></li>
     <li><a href="#">Signup</a></li>
-    <li><a href="#">Signin</a></li>
+    <li className='float'><a href="#">Signin</a></li>
 </ul>
     </div>
   )
