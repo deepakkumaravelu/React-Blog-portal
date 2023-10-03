@@ -3,7 +3,7 @@ import BlogList from './components/BlogList';
 import NavBar from './components/NavBar';
 import BlogPost from './components/BlogPost'
 import './App.css';
-import BlogPost from './components/BlogPost';
+
 function App() {
   return (
     <div>
