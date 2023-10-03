@@ -1,27 +1,33 @@
 import React from 'react';
+import BlogData from './BlogData';
 import PostTitle from './PostTitle';
 import PostContent from './PostContent';
 import PostAuthor from './PostAuthor';
-import BlogData from './BlogData'; 
 import Quotes from './Quotes';
+
 const formatDate = (dateString) => {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
   return new Date(dateString).toLocaleDateString(undefined, options);
 };
 
-const BlogPost = () => {
-  const currentDate = new Date();
+const BlogPost = ({ title }) => {
+  console.log('Received title:', title);
+
+  const post = BlogData.find((val) => val.title === title);
+  console.log('Matching post:', post);
+
+  if (!post) {
+    // If no matching post is found, show a default message or component
+    return <div>Blog post not found.</div>;
+  }
+
   return (
     <div>
-      {BlogData.map((val, index) => ( 
-        <div key={index}>
-          <h1>{Quotes[Math.floor(Math.random()*3)]}</h1>
-          <PostTitle title={val.title} />
-          <p>{formatDate(currentDate)}</p>
-          <PostContent content={val.content} />
-          <PostAuthor author={val.author} />
-        </div>
-      ))}
+      <h1>{Quotes[Math.floor(Math.random() * 3)]}</h1>
+      <PostTitle title={post.title} />
+      <p>{formatDate(post.date)}</p>
+      <PostContent content={post.content} />
+      <PostAuthor author={post.author} />
     </div>
   );
 };
