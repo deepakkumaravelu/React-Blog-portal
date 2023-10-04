@@ -1,12 +1,12 @@
 const BlogData=[
     {
-        title: 'First Blog Post',
-        content: 'This is the content of the first blog post.',
-        author: 'John Doe',
+        title: 'What is Blog?',
+        content: "In 1997, Jorn Barger, blogger for Robot Wisdom, coined the term “weblog”, which was meant to describe his process for “logging the web” as he surfed the internet. The term “weblog” was shortened to “blog” in 1999, by programmer Peter Merholz.In the early stages, a blog was a personal web log or journal in which someone could share information or their opinion on a variety of topics. The information was posted reverse chronologically, so the most recent post would appear first.Nowadays, a blog is a regularly updated website or web page, and can either be used for personal use or to fulfill a business need.For instance, HubSpot blogs about various topics concerning marketing, sales, and service because HubSpot sells products related to those three subjects — so, more than likely, the type of readers HubSpot‘s blog attracts are going to be similar to HubSpot’s core buyer persona. Alternatively, a woman named Kiki started a personal travel blog, called The Blonde Abroad, to document her travel experiences and provide readers with helpful tips and travel recommendations. Her blog doesn't serve a larger company, but it does help her create a personal brand. If a personal blog is successful enough, the writer can also make money off of it via sponsorships or advertisements. Take a look at 5 Strategies to Monetize a Blog to learn more.",
+        author: 'Jason Smith',
       },
       {
-        title: 'Second Blog Post',
-        content: 'This is the content of the second blog post.',
+        title: 'What is Blog Post',
+        content: "A blog post is an individual web page on your website that dives into a particular sub-topic of your blog.For instance, let's say you start a fashion blog on your retail website. One blog post might be titled, “The Best Fall Shoes for 2023”. The post ties back to your overall blog topic as a whole (fashion), but it also addresses a very particular sub-topic (fall shoes).Blog posts allow you to rank on search engines for a variety of keywords. In the above example, your blog post could enable your business to rank on Google for “fall shoes”. When someone searches for fall shoes and comes across your blog post, they have access to the rest of your company's website. They might click “Products” after they read your post, and take a look at the clothing items your company sells.A blog post links back to your overall blog site. For instance, right now, you're on blog.hubspot.com/marketing/what-is-a-blog. The “what-is-a-blog” section of the URL is tied back to /marketing/, which is the blog as a whole.",
         author: 'Jane Smith',
       }
 
